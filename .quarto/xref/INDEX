@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "6abb9cb3"
+  },
+  "blog.qmd": {
+    "blog.html": "39e0bf67"
+  },
+  "courses.qmd": {
+    "courses.html": "e94beaa5"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "dcd400d7"
+  },
+  "posts/digital_humanities_interview/index.qmd": {
+    "index.html": "bad7aeab"
+  },
+  "events.qmd": {
+    "events.html": "61fba58b"
+  },
+  "code.qmd": {
+    "code.html": "80cbe2f0"
+  },
+  "about.qmd": {
+    "about.html": "cddcc057"
+  },
+  "contacts.qmd": {
+    "contacts.html": "418ba5f4"
+  },
+  "about-us.qmd": {
+    "about-us.html": "ff044b61"
+  },
+  "posts/april_2023_hpc_morning_tea/index.qmd": {
+    "index.html": "b6ea23ce"
+  },
+  "posts/april_ligand_docking_code/index.qmd": {
+    "index.html": "811f12e5"
+  },
+  "posts/april_2023_ligand_docking_code/index.qmd": {
+    "index.html": "d93c1598"
+  },
+  "posts/may_2023_snap_coffee/index.qmd": {
+    "index.html": "dd24c81b"
+  },
+  "posts/nov_2022_snap_coffee/index.qmd": {
+    "index.html": "232c5427"
+  },
+  "posts/march_2023_snap_coffee/index.qmd": {
+    "index.html": "c51dce61"
+  },
+  "posts/dec_2022_quantum_chemistry/index.qmd": {
+    "index.html": "87ed4f07"
+  }
+}
