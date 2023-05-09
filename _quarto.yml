@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: /Users/tricia/Documents/GitHub/snap-web
+  output-dir: /Users/tricia/Documents/GitHub/SNAP-decisions
 
 website:
   title: snap-decisions
