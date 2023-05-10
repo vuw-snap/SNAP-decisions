@@ -2,7 +2,7 @@
 title: "SNAP Coffee November"
 subtitle: "SNAP Coffee: Join us to meet other SNAPites"
 author: "Patricia Hunt"
-date: "12/05/2022"
+date: "04 11 2022"
 sidebar: false
 navbar:
   background: light
@@ -12,13 +12,13 @@ categories:
 <style>
 .quarto-title-block .quarto-title-banner {
   background-image: url(images/small_logo.png);
-#  border: solid 2px #FF9300;
+  border-bottom: solid 10px #FFFFFF;
   margin-top: -40px;
   color: white;
 }
 </style>
 
-![](thumbnail1.jpeg){height=500 fig-align="center"}
+![](thumbnail1.jpeg){width=500 fig-align="center"}
 
 <h1>SNAP's bimonthley coffee</h1>
 

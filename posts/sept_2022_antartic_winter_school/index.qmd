@@ -2,7 +2,7 @@
 title: "The Antarctic Science Platform Winter School"
 subtitle: "The Antarctic Science Platform Winter School for modelling and numerical data analysis"
 author: "Liz Keller"
-date: "09/06/2022"
+date: "06 09 2022"
 sidebar: false
 navbar:
   background: light
@@ -12,7 +12,7 @@ categories:
 <style>
 .quarto-title-block .quarto-title-banner {
   background-image: url(images/small_logo.png);
-#  border: solid 2px #FF9300;
+  border-bottom: solid 10px #FFFFFF;
   margin-top: -40px;
   color: white;
 }

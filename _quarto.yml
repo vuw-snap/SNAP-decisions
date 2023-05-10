@@ -18,10 +18,10 @@ website:
         file: index.qmd
       - text: About us
         file: about-us.qmd
-      - file: events.qmd
-      - file: code.qmd
-      - file: courses.qmd
-      - file: contacts.qmd
+#      - file: events.qmd
+#      - file: code.qmd
+#      - file: courses.qmd
+#      - file: contacts.qmd
       - file: blog.qmd
     right:
       - icon: github
@@ -40,10 +40,10 @@ website:
           file: index.qmd
         - text: About us
           file: about-us.qmd
-        - events.qmd
-        - code.qmd
-        - courses.qmd
-        - contacts.qmd
+#        - events.qmd
+#        - code.qmd
+#        - courses.qmd
+#        - contacts.qmd
 
 format:
   html:

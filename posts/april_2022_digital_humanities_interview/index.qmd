@@ -2,7 +2,7 @@
 title: "Digital Humanities Interview"
 subtitle: "Interview with Michael Radich"
 author: "Matt Plummer"
-date: "4/13/2022"
+date: "13 04 2022"
 sidebar: false
 navbar:
   background: light
@@ -13,7 +13,7 @@ categories:
 <style>
 .quarto-title-block .quarto-title-banner {
   background-image: url(images/small_logo.png);
-#  border: solid 2px #FF9300;
+  border-bottom: solid 10px #FFFFFF;
   margin-top: -40px;
   color: white;
 }

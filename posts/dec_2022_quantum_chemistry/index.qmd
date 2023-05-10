@@ -2,7 +2,7 @@
 title: "Beginners Introduction to Computational Chemistry"
 subtitle: "Beginners Introduction to Computational Chemistry"
 author: "Patricia Hunt"
-date: "12/06/2022"
+date: "06 12 2022"
 sidebar: false
 navbar:
   background: light
@@ -12,7 +12,7 @@ categories:
 <style>
 .quarto-title-block .quarto-title-banner {
   background-image: url(images/small_logo.png);
-#  border: solid 2px #FF9300;
+  border-bottom: solid 10px #FFFFFF;
   margin-top: -40px;
   color: white;
 }
@@ -22,11 +22,11 @@ categories:
 
 <h1>An introduction to molecular computational chemistry</h1>
 
+A workshop suitable for those who had never used computational chemistry before as well as those who were beginners and wanted to advance their skills. People could find out how computational chemistry could be used within their research project. 
+
 >"Really enjoyed learning about how computational chemistry could benefit my own research (many things I didn't realise were possible) as well as getting hands on with the software itself."
 
 <img style="float: right; height: 300px;" src="vlab_wiki_mos.png"> 
-
-This workshop was suitable for those who have never used computational chemistry before as well as those who are beginners and would like to advance their skills. People could find out how computational chemistry could be used within their research project. 
 
 We used the quantum chemistry code Gaussian/GaussView suite of programs for which the University has a site license.
 
