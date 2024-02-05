@@ -2,18 +2,26 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/may_2023_chat-gpt_workshop/index.html",
-      "/posts/april_2023_ligand_docking_code/index.html",
-      "/posts/april_2023_hpc_morning_tea/index.html",
-      "/posts/march_2023_snap_coffee/index.html",
-      "/posts/feb_2023_fluids_conference/index.html",
-      "/posts/dec_2022_quantum_chemistry/index.html",
-      "/posts/nov_2022_snap_coffee/index.html",
-      "/posts/nov_2022_inaugural-training-workshop/index.html",
-      "/posts/sept_2022_antartic_winter_school/index.html",
-      "/posts/march_2022_survey-summary/index.html",
-      "/posts/april_2022_digital_humanities_interview/index.html",
-      "/posts/april_22_Iinaugural-workshop/index.html"
+      "/posts/2024_feb_e-researchNZ/index.html",
+      "/posts/2023_dec_christmas_drinks/index.html",
+      "/posts/2023_dec_auckland_eresearch/index.html",
+      "/posts/2023_sept_defend_hpc/index.html",
+      "/posts/2023_august_cloudcomputing/index.html",
+      "/posts/2023_august_andre/index.html",
+      "/posts/2023_may_markus/index.html",
+      "/posts/2023_may_chat-gpt_workshop/index.html",
+      "/posts/2023_may_snap_newsletter/index.html",
+      "/posts/2023_april_ligand_docking_code/index.html",
+      "/posts/2023_april_hpc_morning_tea/index.html",
+      "/posts/2023_march_snap_coffee/index.html",
+      "/posts/2023_feb_fluids_conference/index.html",
+      "/posts/2022_dec_quantum_chemistry/index.html",
+      "/posts/2022_nov_snap_coffee/index.html",
+      "/posts/2022_nov_inaugural-training-workshop/index.html",
+      "/posts/2022_sept_antartic_winter_school/index.html",
+      "/posts/2022_march_survey-summary/index.html",
+      "/posts/2022_april_inaugural-workshop/index.html",
+      "/posts/2022_april_digital_humanities_interview/index.html"
     ]
   }
 ]
