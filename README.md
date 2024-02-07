@@ -1,10 +1,9 @@
-the main depository for the VUW-SNAP website.
+the main depository for the VUW-SNAP website.<br>
 
-
-we use Quarto to create the website documents
-https://quarto.org/docs/get-started/hello/text-editor.html
-https://quarto.org/docs/guide/
-the quarto documents are in the other depository
+we use Quarto to create the website documents <br>
+https://quarto.org/docs/get-started/hello/text-editor.html <br>
+https://quarto.org/docs/guide/ <br>
+the quarto documents are in the other depository <br>
 
 basic structure is
 _quarto.yml : sets out framework of website
