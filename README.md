@@ -12,10 +12,11 @@ the index.qmd file will be the opening page <br>
 
 basic instructions: <br>
 clone SNAP-decisions  <br>
+eg download SNAP-decisions-main.tar and uncompress <br>
 I put my files into a local directory called SNAP-decisions-testing <br>
 alter the files with your editor <br>
 from outside of your directory type  <br>
-     quarto preview mysite (mysite=SNAP-decisions-testing) <br>
+     quarto preview SNAP-decisions-testing <br>
 this will generate the html <br>
 the html will be in directory "_site" only unless you point to another directory in _quarto.yml  <br>
 for example I point to the SNAP-decisions directory by adding the following line in _quarto.yml <br>
