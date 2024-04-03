@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.326">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,20 +60,56 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<style>
-    .quarto-title-block .quarto-title-banner,
-    .quarto-title-block .quarto-title-banner h1,
-    .quarto-title-block .quarto-title-banner h2,
-    .quarto-title-block .quarto-title-banner h3,
-    .quarto-title-block .quarto-title-banner h4,
-    .quarto-title-block .quarto-title-banner h5,
-    .quarto-title-block .quarto-title-banner h6
-    {
-      color: white;
-background: #28553A;
-    }
-    </style>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background: #28553A;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -224,17 +262,91 @@ background: #28553A;
 </div>
 </div>
 <section id="check-our-blog-for-the-latest-activities." class="level4">
-<h4 class="anchored" data-anchor-id="check-our-blog-for-the-latest-activities.">Check our blog for the latest activities.</h4>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/blog_april_2023.png" class="img-fluid figure-img" style="width:60.0%"></p>
-</figure>
-</div>
+<h4 class="anchored" data-anchor-id="check-our-blog-for-the-latest-activities.">Check our <a href="blog.html">blog</a> for the latest activities.</h4>
+
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="workshop" data-listing-date-sort="1707994800000" data-listing-file-modified-sort="1712179464268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/2024_feb_planning_workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/2024_feb_planning_workshop/PadletScreenshot.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SNAP Planning Workshop
+</h5>
+<div class="card-text listing-description">
+We held a planning workshop on the afternoon of 16 February 2024 with the aim of generating some ideas for activities SNAP could organise and participate in throughout 2024.…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Brendan Harding
+</div>
+<div class="listing-date">
+Feb 16, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="conference" data-listing-date-sort="1707390000000" data-listing-file-modified-sort="1712179386848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/2024_feb_e-researchNZ/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/2024_feb_e-researchNZ/eresearch_banner1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hear about our SNAP journey at the eResearch NZ conference
+</h5>
+<div class="card-text listing-description">
+We are a community-led initiative comprised of academics and e-resource support staff, from a wide range of disciplines and career stages who use and facilitate numerical…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Patricia Hunt
+</div>
+<div class="listing-date">
+Feb 9, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="conference" data-listing-date-sort="1702378800000" data-listing-file-modified-sort="1712175455049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/2023_dec_christmas_drinks/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/2023_dec_christmas_drinks/kelburn_pub.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SNAP Christmas Drinks
+</h5>
+<div class="card-text listing-description">
+We held our SNAP Christmas drinks on afternoon of 13 December, turn-out was small, but connections were strengthened. This event closed a very challenging 6 months for the…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Patricia Hunt
+</div>
+<div class="listing-date">
+Dec 13, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
