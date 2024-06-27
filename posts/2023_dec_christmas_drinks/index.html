@@ -164,8 +164,11 @@ background: #28553A;
 
 
 <style>
-.quarto-title > h1.title {
-  padding-left: 191px;
+.quarto-title > h1.title, p.subtitle {
+  padding-left: 190px; # prevent long titles (and subtitles) from overlapping logo
+}
+.quarto-categories {
+  padding-left: 110px; # (mostly) prevent categories from overlapping the logo
 }
 </style>
 <div class="quarto-figure quarto-figure-center">

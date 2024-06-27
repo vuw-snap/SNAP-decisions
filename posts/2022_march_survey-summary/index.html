@@ -60,6 +60,23 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: white;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: white;
+background: #28553A;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -109,7 +126,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Brief summary of our March survey</h1>
-            <p class="subtitle lead">Brief summary of our March survey</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Surveys</div>
                 <div class="quarto-category">Reports</div>
@@ -150,11 +166,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.quarto-title-block .quarto-title-banner {
-  background-image: url(images/small_logo.png);
-  border-bottom: solid 10px #FFFFFF;
-  margin-top: -40px;
-  color: white;
+.quarto-title > h1.title, p.subtitle {
+  padding-left: 190px; # prevent long titles (and subtitles) from overlapping logo
+}
+.quarto-categories {
+  padding-left: 110px; # (mostly) prevent categories from overlapping the logo
 }
 </style>
 <div class="quarto-figure quarto-figure-center">
