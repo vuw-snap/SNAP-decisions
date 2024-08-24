@@ -2,7 +2,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024_april_using_scikit/index.html",
       "/posts/2024_feb_planning_workshop/index.html",
+      "/posts/2024_may_code_streamline/index.html",
       "/posts/2024_feb_e-researchNZ/index.html",
       "/posts/2023_dec_christmas_drinks/index.html",
       "/posts/2023_dec_auckland_eresearch/index.html",
@@ -29,7 +31,9 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2024_april_using_scikit/index.html",
       "/posts/2024_feb_planning_workshop/index.html",
+      "/posts/2024_may_code_streamline/index.html",
       "/posts/2024_feb_e-researchNZ/index.html",
       "/posts/2023_dec_christmas_drinks/index.html",
       "/posts/2023_dec_auckland_eresearch/index.html",
