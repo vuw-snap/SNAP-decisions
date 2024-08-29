@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024_august_git_and_precommit/index.html",
+      "/posts/2024_july_mpi_workshop/index.html",
       "/posts/2024_may_troubleshoot_code/index.html",
       "/posts/2024_april_using_scikit/index.html",
       "/posts/2024_feb_planning_workshop/index.html",
@@ -31,6 +33,8 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2024_august_git_and_precommit/index.html",
+      "/posts/2024_july_mpi_workshop/index.html",
       "/posts/2024_may_troubleshoot_code/index.html",
       "/posts/2024_april_using_scikit/index.html",
       "/posts/2024_feb_planning_workshop/index.html",
