@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2025_may_snap_coffee/index.html",
       "/posts/2025_april_workshop/index.html",
       "/posts/2025_april_discord/index.html",
       "/posts/2025_feb_reprod_research/index.html",
@@ -38,8 +39,9 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2025_may_snap_coffee/index.html",
       "/posts/2025_april_workshop/index.html",
       "/posts/2025_april_discord/index.html",
       "/posts/2025_feb_reprod_research/index.html",
