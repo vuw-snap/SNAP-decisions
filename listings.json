@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2025_november_snap_coffee/index.html",
       "/posts/2025_october_snap_coffee/index.html",
       "/posts/2025_october_Typography_workshop/index.html",
       "/posts/2025_september_Python_workshop/index.html",
@@ -51,8 +52,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2025_november_snap_coffee/index.html",
       "/posts/2025_october_snap_coffee/index.html",
       "/posts/2025_october_Typography_workshop/index.html",
       "/posts/2025_september_Python_workshop/index.html",
