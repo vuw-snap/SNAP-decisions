@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2026_february_snap_coffee/index.html",
       "/posts/2026_january_snap_coffee/index.html",
       "/posts/2025_december_Christmas_gathering/index.html",
       "/posts/2025_december_SSH_workshop/index.html",
@@ -55,8 +56,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2026_february_snap_coffee/index.html",
       "/posts/2026_january_snap_coffee/index.html",
       "/posts/2025_december_Christmas_gathering/index.html",
       "/posts/2025_december_SSH_workshop/index.html",
