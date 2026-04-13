@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "upcoming-events_old.html",
+    "href": "upcoming-events_old.html",
+    "title": "Upcoming Events",
+    "section": "",
+    "text": "Workshops/Seminars Happening this Year\n\n\n\n\n\n\n\nWorkshop on Schrodinger\n\n\n\n15 April 2026, 1:00-4:00 PM (KK218)\n\n\n\n\n\n\nWorkshop on Version Control\n\n\n\nMay 2026 (Date/Venue TBC)\n\n\n\n\n\n\nWorkshop on Python\n\n\n\nJune 2026 (Date/Venue TBC)\n\n\n\n\n\n\nWorkshop on SSH\n\n\n\nJuly 2026 (Date/Venue TBC)\n\n\n\n\n\n\nUpcoming Coffee Catch Ups\n\n\n\n\n\n\n\nSNAP Monthly Coffee Catch Up\n\n\n\n15 April 2026 @ 10:30AM (Milk & Honey)\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "posts/2026_march_snap_coffee/index.html",
     "href": "posts/2026_march_snap_coffee/index.html",
     "title": "SNAP Coffee March 2026",
@@ -217,26 +224,18 @@
     "text": "A list of job adverts linked to SNAP areas contributed by members\n\n\nclosing date\n\n\nparticulars\n\n\n\n\n1 Nov 2024\n\n\nThe School of Mathematics and Statistics at Victoria University of Wellington is seeking to recruit a high achieving students in applied mathematics (or similar) with an interest in pursuing a PhD on a topic related to the mathematical modelling of microfluidic phenomena under the supervision of Dr Brendan Harding. The PhD scholarship includes a generous scholarship ($35k NZD per year for 3 years plus tuition fees). Further information and the application link can be found at  https://www.wgtn.ac.nz/scholarships/current/phd-scholarship-in-applied-mathematics-on-modelling-microfluidic-phenomena\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Contact us",
+    "objectID": "events/2026_may_Version-control_workshop/index.html",
+    "href": "events/2026_may_Version-control_workshop/index.html",
+    "title": "SNAP Workshop: Version Control",
     "section": "",
-    "text": "Email SNAP at snap@vuw.ac.nz.\n\n\nStudents can email SNAP at snap-students@vuw.ac.nz.\n\n\nFor issues with the website, go to our GitHub repository.\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "Contact us"
-    ]
+    "text": "SNAP Workshop: Version Control\nSNAP is hosting an Introductory Workshop on Version Control.\nMore details to follow.\n📅 When: TBC\n📍 Where: TBC\n📝 Register here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "about-us.html",
-    "href": "about-us.html",
-    "title": "Meet the SNAP Organising Committee",
+    "objectID": "events/2026_april_Schrodinger_workshop/index.html",
+    "href": "events/2026_april_Schrodinger_workshop/index.html",
+    "title": "SNAP Workshop: Introduction to Schrödinger Suite for Ligand Docking",
     "section": "",
-    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nPatricia Hunt\n\n\n\nProfessor in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nBrendan Harding\n\n\n\nLecturer in the Scool of Computational Mathematics and Statistics\n\n\n\n\n\n\nLiz Keller\n\n\n\nResearch Fellow in the Antarctic Research Centre\n\n\n\n\n\n\nPosition Vacant\n\n\n\nRāpoi - Research Computing Specialist\n\n\n\n\n\n\nWanting Jiao\n\n\n\nScientist in the Ferrier Research Institute\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYvette Perrott\n\n\n\nLecturer in Astrophysics in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nAnne Haase\n\n\n\nHead of School in the School of Health\n\n\n\n\n\n\nStephen Skalicky\n\n\n\nSenior Lecturer in the School of Linguistics and Applied Language Studies\n\n\n\n\n\n\nEmily O’Riordan\n\n\n\nLecturer in Artificial Intelligence in the School of Engineering and Computer Science\n\n\n\n\n\n\nDavid Alderman\n\n\n\nSystems Administrator, Digital Solutions\n\n\n\n\n\n\nPostDoc Representatives\n\n\n\n\n\n\n\n\n\n\nMuhammad Ali Hashmi\n\n\n\nResearch Fellow in the School of Chemical and Physical Sciences\n\n\n\nStudent Representatives\n\n\n\n\n\n\n\n\n\n\nAngela Xue\n\n\n\nPhD Candidate in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nQurat Ul Ain\n\n\n\nPhD Candidate in the School of Chemical and Physical Sciences\n\n\n\nRetired Members\n\n\n\n\n\n\n\n\n\n\nMarkus  Luczak-Roesch\n\n\n\nMarkus Luczak-Roesch Associate Professor within the School of Information Management\n\n\n\n\n\n\nKonstantina  Vasileva\n\n\n\nResearch Capability Team Leader in the Centre for Academic Development\n\n\n\n\n\n\nDavid O’Sullivan\n\n\n\nProfessor of Geography and Geospatial Science in the School of Geography, Environment and Earth Sciences\n\n\n\n\n\n\nMatt Plummer\n\n\n\nSenior Research Partner in the Research Office\n\n\n\n\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Home",
-      "About us"
-    ]
+    "text": "SNAP Workshop: Introduction to Schrödinger Suite for Ligand Docking\nSNAP is hosting an Introductory Workshop on the Schrödinger Suite, presented by Dr. Wanting Jiao, whose research focuses on computational biochemistry and biophysics.\nMolecular modelling techniques such as ligand docking are widely used to study protein–ligand interactions and play an important role in drug discovery and development.\nDuring the session, participants will:\n\nGet started with Maestro\nVisualise protein–ligand interactions\nPrepare protein/ligand structures\nPerform docking calculations\n\n📅 When: Wednesday, 15 April 2026, 1:00 – 4:00 pm\n📍 Where: KK218 Cyber Common Room\n📝 Register here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "blog.html",
@@ -250,11 +249,40 @@
     ]
   },
   {
+    "objectID": "about-us.html",
+    "href": "about-us.html",
+    "title": "Meet the SNAP Organising Committee",
+    "section": "",
+    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nPatricia Hunt\n\n\n\nProfessor in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nBrendan Harding\n\n\n\nLecturer in the Scool of Computational Mathematics and Statistics\n\n\n\n\n\n\nLiz Keller\n\n\n\nResearch Fellow in the Antarctic Research Centre\n\n\n\n\n\n\nWanting Jiao\n\n\n\nScientist in the Ferrier Research Institute\n\n\n\n\n\n\nMuhammad Hashmi\n\n\n\nRāpoi - Research Computing Specialist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYvette Perrott\n\n\n\nLecturer in Astrophysics in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nAnne Haase\n\n\n\nHead of School in the School of Health\n\n\n\n\n\n\nStephen Skalicky\n\n\n\nSenior Lecturer in the School of Linguistics and Applied Language Studies\n\n\n\n\n\n\nEmily O’Riordan\n\n\n\nLecturer in Artificial Intelligence in the School of Engineering and Computer Science\n\n\n\n\n\n\nDavid Alderman\n\n\n\nSystems Administrator, Digital Solutions\n\n\n\n\n\n\nPostDoc Representatives\n\n\n\n\n\n\n\n\n\n\nMuhammad Hashmi\n\n\n\nResearch Fellow in the School of Chemical and Physical Sciences\n\n\n\nStudent Representatives\n\n\n\n\n\n\n\n\n\n\nAngela Xue\n\n\n\nPhD Candidate in the School of Chemical and Physical Sciences\n\n\n\n\n\n\nQurat Ul Ain\n\n\n\nPhD Candidate in the School of Chemical and Physical Sciences\n\n\n\nRetired Members\n\n\n\n\n\n\n\n\n\n\nMarkus  Luczak-Roesch\n\n\n\nMarkus Luczak-Roesch Associate Professor within the School of Information Management\n\n\n\n\n\n\nKonstantina  Vasileva\n\n\n\nResearch Capability Team Leader in the Centre for Academic Development\n\n\n\n\n\n\nDavid O’Sullivan\n\n\n\nProfessor of Geography and Geospatial Science in the School of Geography, Environment and Earth Sciences\n\n\n\n\n\n\nMatt Plummer\n\n\n\nSenior Research Partner in the Research Office\n\n\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "About us"
+    ]
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contact us",
+    "section": "",
+    "text": "Email SNAP at snap@vuw.ac.nz.\n\n\nStudents can email SNAP at snap-students@vuw.ac.nz.\n\n\nFor issues with the website, go to our GitHub repository.\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home",
+      "Contact us"
+    ]
+  },
+  {
+    "objectID": "events/2026_june_Python_workshop/index.html",
+    "href": "events/2026_june_Python_workshop/index.html",
+    "title": "SNAP Workshop: Python",
+    "section": "",
+    "text": "SNAP Workshop: Python\nSNAP is hosting an Introductory Workshop on Python.\nMore details to follow.\n📅 When: TBC\n📍 Where: TBC\n📝 Register here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SNAP",
     "section": "",
-    "text": "The 21st century has seen powerful advances in computer hardware and software leading to a rapid increase in the exploitation of computation within the natural sciences, social sciences, and engineering disciplines.\nSignificant advances have brought numerical modelling, data analysis and simulation disciplines to the forefront. There has been a large ground swell in the use of programming and scripting across all disciplines.\nThe computational and data literacy skill sets required by modern academics and researchers across all disciplines have undergone a step change.\n\nOur focus is the many researchers who can benefit (or have the potential to benefit) from computational/numerical know-how and knowledge.\n\nSNAP has been set-up to connect, support and enable researchers across diverse disciplines, particularly those who have a primary research domain outside of computing.\n\nOur aim is to facilitate better research undertaken more productively, efficiently, and expansively.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck our blog for the latest activities.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarch Python Workshop - Session 02\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Coffee March 2026\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\nMarch Python Workshop - Session 01\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 17, 2026\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "text": "The 21st century has seen powerful advances in computer hardware and software leading to a rapid increase in the exploitation of computation within the natural sciences, social sciences, and engineering disciplines.\nSignificant advances have brought numerical modelling, data analysis and simulation disciplines to the forefront. There has been a large ground swell in the use of programming and scripting across all disciplines.\nThe computational and data literacy skill sets required by modern academics and researchers across all disciplines have undergone a step change.\n\nOur focus is the many researchers who can benefit (or have the potential to benefit) from computational/numerical know-how and knowledge.\n\nSNAP has been set-up to connect, support and enable researchers across diverse disciplines, particularly those who have a primary research domain outside of computing.\n\nOur aim is to facilitate better research undertaken more productively, efficiently, and expansively.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCheck our Upcoming Events for the upcoming workshops.\n\n\n\n\n\n\n\n\nSNAP Workshop: Introduction to Schrödinger Suite for Ligand Docking\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Workshop: Python\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Workshop: Version Control\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n\n\n\n\nCheck our blog for the latest activities.\n\n\n\n\n\n\n\n\nMarch Python Workshop - Session 02\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 19, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Coffee March 2026\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\nMarch Python Workshop - Session 01\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nMar 17, 2026\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Home"
     ]
@@ -447,5 +475,16 @@
     "title": "March Python Workshop - Session 02",
     "section": "",
     "text": "SNAP Workshop: Introduction to Machine Learning with Python - Session 02\n\nSNAP hosted the second session of the “Introduction to Python and Machine Learning” workshop series on 19 March 2026. This session was led by Dr. Emily O’Riordan, a lecturer in Artificial Intelligence and Machine Learning at the School of Engineering and Computer Science, with support from Angela Xue and Richard Littauer. The workshop offered a practical introduction to machine learning concepts using the Python library Scikit-learn. Participants examined techniques such as linear and non-linear regression, decision trees, and methods for dividing data into training and testing sets. Through guided examples, attendees discovered how machine learning models can be trained and assessed within a Python workflow. The session was attended by more than a dozen students from diverse academic backgrounds, including computer science, linguistics, and other fields interested in developing computational research skills. Along with the initial session, the workshop series provided a comprehensive eight-hour introduction to Python programming and machine learning, enabling participants to delve deeper into these topics than in typical short workshops. The session loosely followed the Carpentries lesson Introduction to Machine Learning with Scikit-learn, which participants can further explore on their own.\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "upcoming-events.html",
+    "href": "upcoming-events.html",
+    "title": "Upcoming Events",
+    "section": "",
+    "text": "SNAP Workshop: Introduction to Schrödinger Suite for Ligand Docking\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Workshop: Python\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nSNAP Workshop: Version Control\n\n\n\n\n\n\nMuhammad Hashmi\n\n\nApr 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top",
+    "crumbs": [
+      "Home",
+      "Upcoming Events"
+    ]
   }
 ]

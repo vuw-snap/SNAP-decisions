@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-latest-blog-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-latest-blog-posts'] = new List('listing-latest-blog-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-upcoming-events-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-upcoming-events-list'] = new List('listing-upcoming-events-list', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -171,12 +199,16 @@ window.Quarto = {
 <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contacts.html"> 
-<span class="menu-text">Contact Us</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./upcoming-events.html"> 
+<span class="menu-text">Upcoming Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contacts.html"> 
+<span class="menu-text">Contact Us</span></a>
   </li>  
 </ul>
           <div class="quarto-navbar-tools">
@@ -232,14 +264,20 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./contacts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contact us</span></a>
+  <a href="./upcoming-events.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Upcoming Events</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./blog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./contacts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact us</span></a>
   </div>
 </li>
     </ul>
@@ -288,16 +326,86 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<section id="check-our-upcoming-events-for-the-upcoming-workshops." class="level4">
+<h4 class="anchored" data-anchor-id="check-our-upcoming-events-for-the-upcoming-workshops.">Check our <a href="upcoming-events.html">Upcoming Events</a> for the upcoming workshops.</h4>
+<div id="listing-upcoming-events-list" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3A=" data-listing-date-sort="1774954800000" data-listing-file-modified-sort="1776048092370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<a href="./events/2026_april_Schrodinger_workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="events\2026_april_Schrodinger_workshop\Schrodinger_Workshop_Apr_2026.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SNAP Workshop: Introduction to Schrödinger Suite for Ligand Docking
+</h5>
+<div class="card-text listing-description delink">
+SNAP is hosting an Introductory Workshop on the Schrödinger Suite, presented by Dr.&nbsp;Wanting Jiao, whose research focuses on computational biochemistry and biophysics.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Muhammad Hashmi
+</div>
+<div class="listing-date">
+Apr 1, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3A=" data-listing-date-sort="1774954800000" data-listing-file-modified-sort="1776048557056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="./events/2026_june_Python_workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="events\2026_june_Python_workshop\placeholder.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SNAP Workshop: Python
+</h5>
+<div class="card-text listing-description delink">
+SNAP is hosting an Introductory Workshop on Python.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Muhammad Hashmi
+</div>
+<div class="listing-date">
+Apr 1, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3A=" data-listing-date-sort="1774954800000" data-listing-file-modified-sort="1776048509875" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+<a href="./events/2026_may_Version-control_workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="events\2026_may_Version-control_workshop\placeholder.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SNAP Workshop: Version Control
+</h5>
+<div class="card-text listing-description delink">
+SNAP is hosting an Introductory Workshop on Version Control.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Muhammad Hashmi
+</div>
+<div class="listing-date">
+Apr 1, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
 <section id="check-our-blog-for-the-latest-activities." class="level4">
 <h4 class="anchored" data-anchor-id="check-our-blog-for-the-latest-activities.">Check our <a href="blog.html">blog</a> for the latest activities.</h4>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div id="listing-latest-blog-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3A=" data-listing-date-sort="1773831600000" data-listing-file-modified-sort="1774300033213" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3A=" data-listing-date-sort="1773831600000" data-listing-file-modified-sort="1776043912603" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
 <a href="./posts/2026_march_Python_workshop_02/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts\2026_march_Python_workshop_02\Python_workshop_banner2.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -319,7 +427,7 @@ Mar 19, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="c29jaWFsLWV2ZW50" data-listing-date-sort="1773745200000" data-listing-file-modified-sort="1773865695170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
+<div class="g-col-1" data-index="1" data-categories="c29jaWFsLWV2ZW50" data-listing-date-sort="1773745200000" data-listing-file-modified-sort="1776043912604" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
 <a href="./posts/2026_march_snap_coffee/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts\2026_march_snap_coffee\snap_coffee_march.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -341,7 +449,7 @@ Mar 18, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3A=" data-listing-date-sort="1773658800000" data-listing-file-modified-sort="1774303299950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3A=" data-listing-date-sort="1773658800000" data-listing-file-modified-sort="1776043912593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
 <a href="./posts/2026_march_Python_workshop_01/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts\2026_march_Python_workshop_01\Python_workshop_banner.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -365,7 +473,13 @@ Mar 17, 2026
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
