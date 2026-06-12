@@ -2,13 +2,15 @@
   {
     "listing": "/upcoming-events.html",
     "items": [
-      "/events/2026_may_Version-control_workshop/index.html",
+      "/events/2026_july_HPC_workshop/index.html",
       "/events/2026_june_Python_workshop/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2026_may_git_workshop/index.html",
+      "/posts/2026_june_snap_coffee/index.html",
       "/posts/2026_april_Schrodinger_workshop/index.html",
       "/posts/2026_march_Python_workshop_02/index.html",
       "/posts/2026_march_snap_coffee/index.html",
@@ -64,13 +66,15 @@
       "/posts/2022_may_software_carpentry/index.html",
       "/posts/2022_april_digital_humanities_interview/index.html",
       "/posts/2022_april_inaugural-workshop/index.html",
-      "/events/2026_may_Version-control_workshop/index.html",
+      "/events/2026_july_HPC_workshop/index.html",
       "/events/2026_june_Python_workshop/index.html"
     ]
   },
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/2026_may_git_workshop/index.html",
+      "/posts/2026_june_snap_coffee/index.html",
       "/posts/2026_april_Schrodinger_workshop/index.html",
       "/posts/2026_march_Python_workshop_02/index.html",
       "/posts/2026_march_snap_coffee/index.html",
