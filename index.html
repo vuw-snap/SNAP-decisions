@@ -98,34 +98,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-upcoming-events-list .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-upcoming-events-list'] = new List('listing-upcoming-events-list', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>
 
@@ -203,10 +175,6 @@ window.Quarto = {
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./upcoming-events.html"> 
-<span class="menu-text">Upcoming Events</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./newsletters.html"> 
 <span class="menu-text">Newsletters</span></a>
   </li>  
@@ -274,12 +242,6 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./upcoming-events.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Upcoming Events</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./newsletters.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Newsletters</span></a>
   </div>
@@ -336,64 +298,34 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<section id="check-our-upcoming-events-for-the-upcoming-workshops." class="level4">
-<h4 class="anchored" data-anchor-id="check-our-upcoming-events-for-the-upcoming-workshops.">Check our <a href="upcoming-events.html">Upcoming Events</a> for the upcoming workshops.</h4>
-<div id="listing-upcoming-events-list" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3A=" data-listing-date-sort="1781179200000" data-listing-file-modified-sort="1781652632071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<a href="./events/2026_july_HPC_workshop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="events\2026_july_HPC_workshop\snap_logo_large.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SNAP Workshop: Good Practices for HPC Usage
-</h5>
-<div class="card-text listing-description delink">
-SNAP – the VUW group for Simulation, Numerics, Analytics and Programming – is hosting a series of workshops on Python and Machine Learning! SNAP was established to share…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Muhammad Hashmi
-</div>
-<div class="listing-date">
-Jun 12, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3A=" data-listing-date-sort="1774954800000" data-listing-file-modified-sort="1778723793585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="./events/2026_june_Python_workshop/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="events\2026_june_Python_workshop\placeholder.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SNAP Workshop: Python
-</h5>
-<div class="card-text listing-description delink">
-SNAP is hosting an Introductory Workshop on Python.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Muhammad Hashmi
-</div>
-<div class="listing-date">
-Apr 1, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 <hr>
-</section>
 <section id="check-our-blog-for-the-latest-activities." class="level4">
 <h4 class="anchored" data-anchor-id="check-our-blog-for-the-latest-activities.">Check our <a href="blog.html">blog</a> for the latest activities.</h4>
 <div id="listing-latest-blog-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="c29jaWFsLWV2ZW50" data-listing-date-sort="1781611200000" data-listing-file-modified-sort="1781652960596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="g-col-1" data-index="0" data-categories="d29ya3Nob3A=" data-listing-date-sort="1784548800000" data-listing-file-modified-sort="1785887688193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+<a href="./posts/2026_july_hpc_workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts\2026_july_hpc_workshop\hpc_banner.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+July Workshop on Good Practices using HPC
+</h5>
+<div class="card-text listing-description delink">
+On 20 July 2026, SNAP hosted a workshop on Good Practices for Using High Performance Computing (HPC), presented by Dr.&nbsp;Muhammad Hashmi and Dr.&nbsp;Brendan Harding. The session…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Muhammad Hashmi
+</div>
+<div class="listing-date">
+Jul 21, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="c29jaWFsLWV2ZW50" data-listing-date-sort="1781611200000" data-listing-file-modified-sort="1781652960596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
 <a href="./posts/2026_june_snap_coffee/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts\2026_june_snap_coffee\SNAP_Coffee_17June2026.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -415,7 +347,7 @@ Jun 17, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="d29ya3Nob3A=" data-listing-date-sort="1780315200000" data-listing-file-modified-sort="1781652632161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="g-col-1" data-index="2" data-categories="d29ya3Nob3A=" data-listing-date-sort="1780315200000" data-listing-file-modified-sort="1781652632161" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <a href="./posts/2026_may_git_workshop/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts\2026_may_git_workshop\Git_Banner.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -432,28 +364,6 @@ Muhammad Hashmi
 </div>
 <div class="listing-date">
 Jun 2, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="c29jaWFsLWV2ZW50" data-listing-date-sort="1779192000000" data-listing-file-modified-sort="1781652973268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="110">
-<a href="./posts/2026_may_snap_coffee/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts\2026_may_snap_coffee\SNAP_Coffee_20May2026.jpg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SNAP Coffee May 2026
-</h5>
-<div class="card-text listing-description delink">
-Join us for coffee with others who use simulation, numerics, analytics, and programming in their research, every third Wednesday of the month from 10:30 to 11:00 at Milk and…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Muhammad Hashmi
-</div>
-<div class="listing-date">
-May 20, 2026
 </div>
 </div>
 </div>
