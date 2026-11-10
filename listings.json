@@ -7,8 +7,9 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2026_nov_snap_symposium/index.html",
       "/posts/2026_oct_snap_coffee/index.html",
       "/posts/2026_aug_GithubCopilot_workshop/index.html",
       "/posts/2026_july_hpc_workshop/index.html",
@@ -73,8 +74,9 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
+      "/posts/2026_nov_snap_symposium/index.html",
       "/posts/2026_oct_snap_coffee/index.html",
       "/posts/2026_aug_GithubCopilot_workshop/index.html",
       "/posts/2026_july_hpc_workshop/index.html",
